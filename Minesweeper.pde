@@ -148,7 +148,7 @@ public class MSButton
     {
         clicked = true;
         //your code here
-        if(mouseButton == LEFT){
+        if(mouseButton == LEFT && flagged == false){
           if(countMines(myRow, myCol) > 0){
             setLabel(countMines(myRow, myCol));
           }
