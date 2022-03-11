@@ -171,7 +171,7 @@ public class MSButton
               buttons[myRow-1][myCol+1].mousePressed();
           }
         }
-        if(mouseButton == RIGHT && myLabel == "" && !isClicked()){
+        if(mouseButton == RIGHT && myLabel == ""){
           if(flagged == false){
             flagged = true;
           }
